@@ -5,8 +5,5 @@ class Solution(object):
             if ch.isalnum():
                 a+=ch.lower()
         return a == a[::-1]
-        """
-        :type s: str
-        :rtype: bool
-        """
+
         
